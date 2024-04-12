@@ -24,7 +24,9 @@
         {
             "language": "javascript",
             "source": [
+
                 "function birthdayCakeCandles(candles) {\n     let maxHeight = Math.max(...candles); // Find the tallest candle\n    let count = candles.filter(candle => candle === maxHeight).length; // Count how many candles have the maximum height\n    return count;\n\n}\n\n"
+
             ],
             "outputs": []
         },
