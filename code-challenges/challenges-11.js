@@ -15,11 +15,11 @@
 // Input: [ 2, 8, 3, 5 ]
 // Output: [ 4, 64, 9, 25 ]
 // 
-let numm = [ 2, 8, 3, 5 ];
+//let numm = [ 2, 8, 3, 5 ];
 function square(arr) {
-    return arr*arr;
+    return  arr.map((x) => x * x);
   }
-  let add = numm.map(square);
+  
 // -------------------------------------------------------------------------------------------------------
 
 // -------------------------------------------------------------------------------------------------------
@@ -57,9 +57,9 @@ function square(arr) {
 // Output: ['Adam Anderson', 'Ben Zeller', 'Peter Mccord', 'Fred Sagar', 'Nathan Weiss']
 
 function fullName(arr) {
-    return arr.firstName +" "+ arr.lastName;
+    return arr.map((x) => x.firstName + " " + x.lastName);;
   }
-  let firstLast = hap.map(fullName);
+   
 // -------------------------------------------------------------------------------------------------------
 
 // -------------------------------------------------------------------------------------------------------
@@ -206,17 +206,17 @@ function gradesAvg(arr) {
 // ]
 
 function studentsResult(arr) {
-  return arr.map(student => {
-    let result = student.avg > 50 ? 'Passed' : 'Failed';
-      return {
-          ...student,
-          result: result 
-      };
-  });
+  // return arr.map(student => {
+  //   let result = student.avg > 50 ? 'Passed' : 'Failed';
+  //     return {
+  //         ...student,
+  //         result: result 
+  //     };
+  // });
 }
 
-var output = studentsResult(students);
-console.log(output);
+// var output = studentsResult(students);
+// console.log(output);
 // -------------------------------------------------------------------------------------------------------
 
 module.exports = { square, fullName, gradesAvg, studentsResult };
