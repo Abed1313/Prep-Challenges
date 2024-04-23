@@ -18,7 +18,7 @@
 // 
 
 const oddFiltration = (arr) => {
-    // write your code here
+
 }
 // -------------------------------------------------------------------------------------------------------
 
@@ -70,7 +70,6 @@ const oddFiltration = (arr) => {
 //  2- If one of the names is null dont add it to the full name
 
 const cvsFiltration = (arr) => {
-    // write your code here
 }
 // -------------------------------------------------------------------------------------------------------
 
@@ -85,7 +84,7 @@ const cvsFiltration = (arr) => {
 // 
 
 const vowelsFiltration = (arr) => {
-     // write your code here  utft
+
 }
 // -------------------------------------------------------------------------------------------------------
 
