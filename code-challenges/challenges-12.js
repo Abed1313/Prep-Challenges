@@ -80,7 +80,7 @@ const cvsFiltration = (arr) => {
         return {
           fullName: fullName,
           tech: candidate.tech
-        };
+        }; 
       });
     }
 
