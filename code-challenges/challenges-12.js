@@ -18,7 +18,7 @@
 // 
 
 const oddFiltration = (arr) => {
-    return arr.filter(num => num % 2 !== 0);
+
 }
 // -------------------------------------------------------------------------------------------------------
 
@@ -70,20 +70,7 @@ const oddFiltration = (arr) => {
 //  2- If one of the names is null dont add it to the full name
 
 const cvsFiltration = (arr) => {
-    return arr.filter(candidate => {
-        return candidate.yearsOfExperience > 4 && candidate.tech === "JS";
-      }).map(candidate => {
-        let fullName = candidate.firstName;
-        if (candidate.LastName) {
-          fullName += " " + candidate.LastName;
-        }
-        return {
-          fullName: fullName,
-          tech: candidate.tech
-        }; 
-      });
-    }
-
+}
 // -------------------------------------------------------------------------------------------------------
 
 // -------------------------------------------------------------------------------------------------------
@@ -97,10 +84,7 @@ const cvsFiltration = (arr) => {
 // 
 
 const vowelsFiltration = (arr) => {
-    const vowels = ['a', 'e', 'i', 'o', 'u'];
-    return arr.filter(word => {
-      return !vowels.some(vowel => word.includes(vowel));
-    });
+
 }
 // -------------------------------------------------------------------------------------------------------
 
