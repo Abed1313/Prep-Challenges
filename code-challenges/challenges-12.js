@@ -21,8 +21,6 @@ const oddFiltration = (arr) => {
 
     return arr.filter(num => num % 2 !== 0); 
 
-
-
 }
 // -------------------------------------------------------------------------------------------------------
 
@@ -74,6 +72,7 @@ const oddFiltration = (arr) => {
 //  2- If one of the names is null dont add it to the full name
 
 const cvsFiltration = (arr) => {
+    console.log("Thanke you");
 }
 // -------------------------------------------------------------------------------------------------------
 
