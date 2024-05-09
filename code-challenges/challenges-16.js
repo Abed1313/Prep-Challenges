@@ -13,7 +13,9 @@
 // Output => "olleH";
 
 const reverseString = (string) => {
-    //write your code here ...
+
+    let rev = string.split("").reverse().join("");
+   return rev;
 }
 // -------------------------------------------------------------------------------------------------------
 
@@ -29,7 +31,9 @@ const reverseString = (string) => {
 // Input <= ["hello ^_^ ","Hi ^_^" ,"What's up ^_-" ,"lol"] , Output => ["hello ^_^ ","Hi ^_^" ] ;
 
 const detectFace = (arr) => {
-    //write your code here ...
+
+    let reg = /\^_\^/;
+    return arr.filter(el => reg.test(el));
 }
 // -------------------------------------------------------------------------------------------------------
 
